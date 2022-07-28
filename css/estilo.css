@@ -1,0 +1,283 @@
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: #fa680c;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#sobrenos {
+	background: white;
+}
+
+#visao {
+	background: white;
+	color: #fa680c;
+	padding-top: 90px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#visao h3 {
+	color: #fa680c;
+	padding-bottom: 10px;
+}
+
+#visao p {
+	text-align: justify;
+}
+
+.finalp {
+	padding-bottom: 30px;
+}
+
+/*barra navegacao*/
+
+.fa-whatsapp {
+	color: white;
+	padding-left: 15px;
+}
+
+.wpp {
+	color: green;
+}
+
+.tit {
+	width: 150px;
+}
+
+.titi {
+	width: 70px;
+}
+
+nav.navbar-transparente {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+.capa {
+	text-align: center;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 20px;
+}
+
+.btn-roxo {
+	background: #040404;
+}
+
+.btn-roxo:hover {
+	background: #ccc;
+	color: black;
+}
+
+.btn-branco {
+	background: #040404;
+}
+
+.btn-branco:hover {
+	background: white;
+	color: black;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	width: 5%;
+}
+
+/*conteudo*/
+
+#servicos {
+	background: white;
+	padding-top: 28px;
+	padding-bottom: 20px;
+}
+
+#servicos .img-fluid {
+	max-width:350px;
+    max-height:350px;
+}
+
+#servicos h4{
+	color: #fa680c;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#servicos h2,h3{
+	color: #7c2578;
+}
+
+#recursos {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+#caixa {
+	background: white;
+}
+
+#recursos h3{
+	color: #9bf0e1;
+}
+
+#recursos h2{
+	color: white;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+
+/*FOOTER*/
+
+#rodape{
+	background: #000;
+	text-align: center;
+	color: #fa680c;
+	font-weight: bold;
+	padding: 15px 0 15px 0;
+}
+
+.rodape1 p {
+	text-align: center;
+	text-decoration: none;
+}
+
+#rodape .copy {
+	color: white;
+}
+
+/*tipografia*/
+
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+/*.tx {
+	font-size: 5em;
+}*/
+
+.prom {
+	color: #fff;
+}
+
+.titan {
+	color: #fa680c;
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+.caixa h4{
+	font-size: 1.5em;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-custom{
+		margin: 10px 15px;
+	}
+	title{
+		padding-left: 15px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-custom{
+		margin: 10px 15px;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+
+.whatsapp-link {
+			position: fixed;
+			width: 80px;
+			height: 80px;
+			bottom: 60px;
+			right: 60px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+		}
+ 
+
+.just {
+			margin-top: 8px;
+			margin-right: 25px;
+		}
